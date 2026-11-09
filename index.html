@@ -1,235 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="az">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nova Studio</title>
-    <meta
-      name="description"
-      content="Modern veb sayt landing page örnəyi."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="header">
-      <nav class="container nav">
-        <div class="logo">Nova<span>Studio</span></div>
-        <button class="menu-toggle" aria-label="Menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <div class="nav-links">
-          <a href="#about">Haqqımızda</a>
-          <a href="#services">Xidmətlər</a>
-          <a href="#work">İşlər</a>
-          <a href="#pricing">Qiymətlər</a>
-          <a href="#contact">Əlaqə</a>
-          <a class="btn btn-small" href="#contact">Sifariş et</a>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="container hero-inner">
-          <div class="hero-content">
-            <p class="eyebrow">DİGITAL DƏYƏR YARADIQ</p>
-            <h1>Bizimlə biznesiniz daha güclü görünür.</h1>
-            <p class="lead">
-              Veb sayt, brend və onlayn satış təcrübənizi daha sürətli, daha
-              gözəl və daha sərfəli şəkildə qururuq.
-            </p>
-            <div class="hero-actions">
-              <a class="btn" href="#contact">Pulsuz məsləhət</a>
-              <a class="btn btn-secondary" href="#work">Nümunələr</a>
-            </div>
-            <ul class="stats">
-              <li><strong>150+</strong><span>Layihə</span></li>
-              <li><strong>4.9/5</strong><span>Müştəri rəyi</span></li>
-              <li><strong>24/7</strong><span>Dəstək</span></li>
-            </ul>
-          </div>
-
-          <div class="hero-visual">
-            <div class="card card-main">
-              <div class="card-top">
-                <span class="dot red"></span>
-                <span class="dot yellow"></span>
-                <span class="dot green"></span>
-              </div>
-              <div class="dashboard">
-                <div class="chart"></div>
-                <div class="metrics">
-                  <div>
-                    <small>Gelir</small>
-                    <strong>$28.4K</strong>
-                  </div>
-                  <div>
-                    <small>Artım</small>
-                    <strong>+18.2%</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="company-strip">
-        <div class="container brands">
-          <span>Brandly</span>
-          <span>Pixelix</span>
-          <span>Northstar</span>
-          <span>NovaPay</span>
-          <span>Vision</span>
-        </div>
-      </section>
-
-      <section id="about" class="section">
-        <div class="container two-col">
-          <div>
-            <p class="eyebrow">HAQQIMIZDA</p>
-            <h2>Bizim missiyamız bizneslərə rəqəmsal güc verən çözümlər təqdim etməkdir.</h2>
-          </div>
-          <div>
-            <p>
-              Komandamız marka, dizayn və texnologiya sahəsində iş təcrübəsi
-              olan mütəxəssislərdən ibarətdir. Hər layihəni biznes məqsədlərinizə
-              uyğun qururuq.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="services" class="section alt">
-        <div class="container">
-          <p class="eyebrow center">XİDMƏTLƏR</p>
-          <h2 class="section-title center">Nə edirik?</h2>
-
-          <div class="grid services">
-            <article class="card service">
-              <div class="icon">01</div>
-              <h3>Veb sayt dizayn</h3>
-              <p>Modern, mobil uyğun və istifadəçi dostu dizaynlar hazırlayırıq.</p>
-            </article>
-            <article class="card service">
-              <div class="icon">02</div>
-              <h3>Brend quruluşu</h3>
-              <p>Logotip, vizual üslub və mesajlaşma strategiyasını inkişaf etdiririk.</p>
-            </article>
-            <article class="card service">
-              <div class="icon">03</div>
-              <h3>Onlayn satış</h3>
-              <p>Shopify, WooCommerce və xüsusi səhifələr üçün satış optimizasiyası edirik.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="work" class="section">
-        <div class="container">
-          <p class="eyebrow">NÜMUNƏLƏR</p>
-          <h2 class="section-title">Son layihələr</h2>
-
-          <div class="portfolio">
-            <div class="project project-large">
-              <div class="project-info">
-                <span>Brand Campaign</span>
-                <h3>NovaPay</h3>
-              </div>
-            </div>
-            <div class="project project-small one">
-              <div class="project-info">
-                <span>Startup</span>
-                <h3>Pixelix</h3>
-              </div>
-            </div>
-            <div class="project project-small two">
-              <div class="project-info">
-                <span>E-commerce</span>
-                <h3>Northshop</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="pricing" class="section alt">
-        <div class="container">
-          <p class="eyebrow center">QİYMƏTLƏR</p>
-          <h2 class="section-title center">Sizin üçün uyğun paket</h2>
-
-          <div class="pricing">
-            <article class="card price-card">
-              <h3>Başlanğıc</h3>
-              <div class="price">$299</div>
-              <ul>
-                <li>1 səhifə landing</li>
-                <li>Mobil uyğunluq</li>
-                <li>Əlaqə forması</li>
-                <li>Əsas SEO</li>
-              </ul>
-              <a class="btn btn-secondary" href="#contact">Seç</a>
-            </article>
-
-            <article class="card price-card featured">
-              <span class="badge">Ən çox satılan</span>
-              <h3>Pro</h3>
-              <div class="price">$799</div>
-              <ul>
-                <li>5 səhifə veb sayt</li>
-                <li>Dizayn və brend</li>
-                <li>İnteqrasiya</li>
-                <li>Premium dəstək</li>
-              </ul>
-              <a class="btn" href="#contact">Seç</a>
-            </article>
-
-            <article class="card price-card">
-              <h3>Business</h3>
-              <div class="price">$1499</div>
-              <ul>
-                <li>Özəlləşdirilmiş sistem</li>
-                <li>Çoxsaylı səhifələr</li>
-                <li>E-commerce</li>
-                <li>Priority dəstək</li>
-              </ul>
-              <a class="btn btn-secondary" href="#contact">Seç</a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact">
-        <div class="container contact-box">
-          <div>
-            <p class="eyebrow">ƏLAQƏ</p>
-            <h2>Layihənizi bizimlə müzakirə edin.</h2>
-          </div>
-          <form class="contact-form">
-            <input type="text" placeholder="Adınız" />
-            <input type="email" placeholder="E-mail" />
-            <textarea placeholder="Layihə haqqında qısa məlumat"></textarea>
-            <button class="btn" type="submit">Göndər</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container footer-inner">
-        <div class="logo">Nova<span>Studio</span></div>
-        <p>© <span id="year"></span> Nova Studio. Bütün hüquqlar qorunur.</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f7ff" />
+  <meta name="description" content="Sinif və fənn üzrə dərs materialları və PDF-lər." />
+  <title>DərsYolu — Dərs materialları</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Əsas menyu">
+      <a class="logo" href="#top" aria-label="DərsYolu ana səhifə"><span class="logo-mark">D</span><span>Dərs<span class="logo-accent">Yolu</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Menyunu aç" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#top">Ana səhifə</a>
+        <a href="#materiallar">Materiallar</a>
+        <a href="#haqqinda">Haqqında</a>
+        <a class="nav-cta" href="#materiallar">Dərsə başla <span aria-hidden="true">↗</span></a>
       </div>
-    </footer>
+    </nav>
+  </header>
 
-    <script src="script.js"></script>
-  </body>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> ÖYRƏNMƏK ÜÇÜN AÇIQ MƏNBƏ</p>
+          <h1>Dərs materialların <span>bir yerdə.</span></h1>
+          <p class="hero-lead">Sinif və fənn üzrə PDF materiallarını asanlıqla tap, oxu və yüklə. Lazım olan mövzuya bir neçə addımda çat.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#materiallar">Materiallara bax <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="#haqqinda">Sayt haqqında</a>
+          </div>
+          <div class="hero-note"><span class="note-check">✓</span> Pulsuz və hamı üçün açıq</div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-halo"></div>
+          <div class="book book-back"><div class="book-lines"></div></div>
+          <div class="book book-front"><div class="book-label">DƏRS<br />MATERİALI</div><div class="book-shape"></div><div class="book-bottom">ÖYRƏN • TƏKRARLA • İRƏLİLƏ</div></div>
+          <div class="float-card float-card-top"><span class="float-icon">✦</span><span>Yeni biliklər</span></div>
+          <div class="float-card float-card-bottom"><span class="pdf-mini">PDF</span><span>Yüklə və öyrən</span></div>
+          <span class="sparkle sparkle-one">✳</span><span class="sparkle sparkle-two">✦</span>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>Materiallar əlavə olunduqca bu səhifədə görünəcək</span><a href="#materiallar">Kataloqa keç <span aria-hidden="true">→</span></a></div>
+    </section>
+
+    <section class="catalog section" id="materiallar">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">DƏRS KATALOQU</p><h2>Lazım olanı tez tap</h2><p class="section-lead">PDF-ləri fənnə, sinfə və mövzuya görə axtar.</p></div>
+          <div class="catalog-count"><strong id="material-count">0</strong><span>material</span></div>
+        </div>
+        <div class="filters" role="search">
+          <label class="search-box"><span class="search-icon" aria-hidden="true">⌕</span><span class="visually-hidden">Material axtar</span><input id="search-input" type="search" placeholder="Mövzu və ya material axtar..." autocomplete="off" /></label>
+          <label class="select-wrap"><span class="visually-hidden">Sinif seç</span><select id="grade-filter"><option value="all">Bütün siniflər</option><option>1-ci sinif</option><option>2-ci sinif</option><option>3-cü sinif</option><option>4-cü sinif</option><option>5-ci sinif</option><option>6-cı sinif</option><option>7-ci sinif</option><option>8-ci sinif</option><option>9-cu sinif</option><option>10-cu sinif</option><option>11-ci sinif</option></select><span aria-hidden="true">⌄</span></label>
+          <label class="select-wrap"><span class="visually-hidden">Fənn seç</span><select id="subject-filter"><option value="all">Bütün fənlər</option></select><span aria-hidden="true">⌄</span></label>
+        </div>
+        <div class="results-line"><span id="results-label">Materiallar</span><button class="reset-button" id="reset-filters" type="button" hidden>Filtrləri təmizlə</button></div>
+        <div class="materials-grid" id="materials-grid" aria-live="polite"></div>
+        <div class="empty-state" id="empty-state">
+          <div class="empty-illustration" aria-hidden="true"><span class="empty-file">PDF</span><span class="empty-spark">✦</span></div>
+          <h3>Materiallar tezliklə burada olacaq</h3>
+          <p>PDF-ləri göndər, onları fənn və sinif üzrə bu kataloqa əlavə edim.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="haqqinda">
+      <div class="container about-layout">
+        <div class="about-icon" aria-hidden="true"><span>✎</span><i></i><i></i><i></i></div>
+        <div class="about-copy"><p class="eyebrow">SADƏ ÖYRƏNMƏ</p><h2>Bilik hamı üçün əlçatan olsun.</h2><p>Bu sayt dərs materiallarını bir yerdə toplamaq üçün hazırlanıb. Materiallar sinif və fənn üzrə səliqəli bölünəcək; sən də onları rahat tapıb istifadə edə biləcəksən.</p></div>
+        <div class="about-points"><div><span>01</span><p>Fənn və sinif üzrə nizamlı kataloq</p></div><div><span>02</span><p>PDF-lərə rahat baxış və yükləmə</p></div><div><span>03</span><p>Telefon və kompüterdə istifadəyə uyğun</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="logo footer-logo" href="#top"><span class="logo-mark">D</span><span>Dərs<span class="logo-accent">Yolu</span></span></a><p>Dərs materialları hamı üçün açıqdır.</p><span>© <span id="year"></span> DərsYolu</span></div></footer>
+  <script src="script.js"></script>
+</body>
 </html>
+
