@@ -23,7 +23,9 @@ const materials = [
   { title: 'Qrammatik şəkilçilər', subject: 'Azərbaycan dili', grade: 'Ümumi', description: 'Azərbaycan dilində söz dəyişdirici şəkilçilərin geniş icmalı.', file: 'materials/azerbaycan-dili/qrammatik-sekilciler.pdf', size: 'PDF · 7 səhifə' },
   { title: 'Irregular verbs — geniş siyahı', subject: 'İngilis dili', grade: 'Ümumi', description: '195 qeyri-düzgün fel, V1/V2/V3 formaları və Azərbaycan dilində mənaları.', file: 'materials/ingilis-dili/irregular-verbs-genis-siyahi.pdf', size: 'PDF · 5 səhifə' },
   { title: 'Irregular verbs — Azərbaycan dilində', subject: 'İngilis dili', grade: 'Ümumi', description: 'Ən çox işlənən qeyri-düzgün fellərin tərcüməli siyahısı.', file: 'materials/ingilis-dili/irregular-verbs-azerbaycanca.pdf', size: 'PDF · 3 səhifə' },
-  { title: 'İngilis dilində zamanlar', subject: 'İngilis dili', grade: 'Ümumi', description: 'Zaman qaydaları, nümunələr və test strategiyası.', file: 'materials/ingilis-dili/ingilis-dili-zamanlar.pdf', size: 'PDF · 4 səhifə' }
+  { title: 'İngilis dilində zamanlar', subject: 'İngilis dili', grade: 'Ümumi', description: 'Zaman qaydaları, nümunələr və test strategiyası.', file: 'materials/ingilis-dili/ingilis-dili-zamanlar.pdf', size: 'PDF · 4 səhifə' },
+  { title: 'Böyük İpək yolu', subject: 'Tarix', grade: 'Ümumi', description: 'Böyük İpək yolu və coğrafi kəşflər barədə dərs təqdimatı.', file: 'materials/Boyuk_Ipek_Yolu.pdf', size: 'PDF · 6 səhifə' },
+  { title: 'Məhlul məsələləri', subject: 'Kimya', grade: 'Ümumi', description: 'Məhlulların faiz qatılığı üzrə qayda və həll olunmuş nümunələr.', file: 'materials/mehlul_meseleleri.pdf', size: 'PDF · 1 səhifə' }
 ];
 
 const grid = document.querySelector('#materials-grid');
