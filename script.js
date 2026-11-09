@@ -25,7 +25,7 @@ const materials = [
   { title: 'Irregular verbs — Azərbaycan dilində', subject: 'İngilis dili', grade: 'Ümumi', description: 'Ən çox işlənən qeyri-düzgün fellərin tərcüməli siyahısı.', file: 'materials/ingilis-dili/irregular-verbs-azerbaycanca.pdf', size: 'PDF · 3 səhifə' },
   { title: 'İngilis dilində zamanlar', subject: 'İngilis dili', grade: 'Ümumi', description: 'Zaman qaydaları, nümunələr və test strategiyası.', file: 'materials/ingilis-dili/ingilis-dili-zamanlar.pdf', size: 'PDF · 4 səhifə' },
   { title: 'Böyük İpək yolu', subject: 'Tarix', grade: 'Ümumi', description: 'Böyük İpək yolu və coğrafi kəşflər barədə dərs təqdimatı.', file: 'materials/Boyuk_Ipek_Yolu.pdf', size: 'PDF · 6 səhifə' },
-  { title: 'Məhlul məsələləri', subject: 'Kimya', grade: 'Ümumi', description: 'Məhlulların faiz qatılığı üzrə qayda və həll olunmuş nümunələr.', file: 'materials/mehlul_meseleleri.pdf', size: 'PDF · 1 səhifə' }
+  { title: 'Məhlul məsələləri', subject: 'Riyaziyyat', grade: 'Ümumi', description: 'Məhlulların faiz qatılığı üzrə qayda və həll olunmuş nümunələr.', file: 'materials/mehlul_meseleleri.pdf', size: 'PDF · 1 səhifə' }
 ];
 
 const grid = document.querySelector('#materials-grid');
@@ -33,6 +33,7 @@ const emptyState = document.querySelector('#empty-state');
 const searchInput = document.querySelector('#search-input');
 const gradeFilter = document.querySelector('#grade-filter');
 const subjectFilter = document.querySelector('#subject-filter');
+const subjectGrid = document.querySelector('#subject-grid');
 const count = document.querySelector('#material-count');
 const resultsLabel = document.querySelector('#results-label');
 const resetButton = document.querySelector('#reset-filters');
@@ -52,8 +53,44 @@ function renderSubjects() {
     subjectFilter.append(option);
   });
   if (subjects.includes(selected)) subjectFilter.value = selected;
-}
 
+  if (!subjectGrid) return;
+  const symbols = { 'Azərbaycan dili': 'Ə', 'İngilis dili': 'EN', 'Riyaziyyat': '∑', 'Tarix': 'T', 'Kimya': 'K' };
+  const cards = [
+    { value: 'all', title: 'Bütün fənlər', symbol: '✦', total: materials.length },
+    ...subjects.map((subject) => ({
+      value: subject,
+      title: subject,
+      symbol: symbols[subject] || subject.slice(0, 2),
+      total: materials.filter((item) => item.subject === subject).length
+    }))
+  ];
+  subjectGrid.replaceChildren();
+  cards.forEach((item) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'subject-card';
+    button.setAttribute('aria-pressed', String(item.value === selected));
+
+    const symbol = document.createElement('span');
+    symbol.className = 'subject-symbol';
+    symbol.textContent = item.symbol;
+    const title = document.createElement('span');
+    title.className = 'subject-name';
+    title.textContent = item.title;
+    const total = document.createElement('span');
+    total.className = 'subject-count';
+    total.textContent = `${item.total} material`;
+
+    button.append(symbol, title, total);
+    button.addEventListener('click', () => {
+      subjectFilter.value = item.value;
+      renderSubjects();
+      renderMaterials();
+    });
+    subjectGrid.append(button);
+  });
+}
 function renderMaterials() {
   if (!grid || !emptyState) return;
   const query = (searchInput?.value || '').trim().toLocaleLowerCase('az');
@@ -109,12 +146,13 @@ function resetFilters() {
   if (searchInput) searchInput.value = '';
   if (gradeFilter) gradeFilter.value = 'all';
   if (subjectFilter) subjectFilter.value = 'all';
+  renderSubjects();
   renderMaterials();
 }
 
 searchInput?.addEventListener('input', renderMaterials);
 gradeFilter?.addEventListener('change', renderMaterials);
-subjectFilter?.addEventListener('change', renderMaterials);
+subjectFilter?.addEventListener('change', () => { renderSubjects(); renderMaterials(); });
 resetButton?.addEventListener('click', resetFilters);
 renderSubjects();
 renderMaterials();
