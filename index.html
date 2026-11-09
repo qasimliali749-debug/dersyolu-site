@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=2" />
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
   <header class="site-header">
@@ -57,6 +57,13 @@
           <div><p class="eyebrow">DƏRS KATALOQU</p><h2>Lazım olanı tez tap</h2><p class="section-lead">PDF-ləri fənnə, sinfə və mövzuya görə axtar.</p></div>
           <div class="catalog-count"><strong id="material-count">0</strong><span>material</span></div>
         </div>
+        <div class="subject-browser">
+          <div class="subject-browser-heading">
+            <div><p class="eyebrow">FƏNNƏ GÖRƏ SEÇ</p><h3>Hansı fənni oxuyursan?</h3></div>
+            <span>Fənni seç, uyğun PDF-lər aşağıda görünsün.</span>
+          </div>
+          <div class="subject-grid" id="subject-grid" role="group" aria-label="Fənn seç"></div>
+        </div>
         <div class="filters" role="search">
           <label class="search-box"><span class="search-icon" aria-hidden="true">⌕</span><span class="visually-hidden">Material axtar</span><input id="search-input" type="search" placeholder="Mövzu və ya material axtar..." autocomplete="off" /></label>
           <label class="select-wrap"><span class="visually-hidden">Sinif seç</span><select id="grade-filter"><option value="all">Bütün siniflər</option><option>1-ci sinif</option><option>2-ci sinif</option><option>3-cü sinif</option><option>4-cü sinif</option><option>5-ci sinif</option><option>6-cı sinif</option><option>7-ci sinif</option><option>8-ci sinif</option><option>9-cu sinif</option><option>10-cu sinif</option><option>11-ci sinif</option></select><span aria-hidden="true">⌄</span></label>
@@ -82,7 +89,7 @@
   </main>
 
   <footer class="footer"><div class="container footer-inner"><a class="logo footer-logo" href="#top"><span class="logo-mark">D</span><span>Dərs<span class="logo-accent">Yolu</span></span></a><p>Dərs materialları hamı üçün açıqdır.</p><span>© <span id="year"></span> DərsYolu</span></div></footer>
-  <script src="script.js?v=2"></script>
+  <script src="script.js?v=3"></script>
 </body>
 </html>
 
