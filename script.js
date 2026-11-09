@@ -18,8 +18,12 @@ if (menuButton && navLinks) {
 }
 
 const materials = [
-  // PDF materialları gələndə belə obyektlər əlavə edilir:
-  // { title: 'Mövzunun adı', subject: 'Riyaziyyat', grade: '9-cu sinif', description: 'Qısa izah', file: 'materials/riyaziyyat/movzu.pdf', size: '2 MB' }
+  { title: 'Omonim şəkilçilər', subject: 'Azərbaycan dili', grade: 'Ümumi', description: 'Eyni cür yazılıb fərqli vəzifə daşıyan şəkilçilərin nümunələri.', file: 'materials/azerbaycan-dili/omonim-sekilciler.pdf', size: 'PDF · 3 səhifə' },
+  { title: 'Qrammatik şəkilçilər — siyahı', subject: 'Azərbaycan dili', grade: 'Ümumi', description: 'İsim və fel şəkilçilərinin qısa, yığcam xülasəsi.', file: 'materials/azerbaycan-dili/qrammatik-sekilciler-siyahisi.pdf', size: 'PDF · 3 səhifə' },
+  { title: 'Qrammatik şəkilçilər', subject: 'Azərbaycan dili', grade: 'Ümumi', description: 'Azərbaycan dilində söz dəyişdirici şəkilçilərin geniş icmalı.', file: 'materials/azerbaycan-dili/qrammatik-sekilciler.pdf', size: 'PDF · 7 səhifə' },
+  { title: 'Irregular verbs — geniş siyahı', subject: 'İngilis dili', grade: 'Ümumi', description: '195 qeyri-düzgün fel, V1/V2/V3 formaları və Azərbaycan dilində mənaları.', file: 'materials/ingilis-dili/irregular-verbs-genis-siyahi.pdf', size: 'PDF · 5 səhifə' },
+  { title: 'Irregular verbs — Azərbaycan dilində', subject: 'İngilis dili', grade: 'Ümumi', description: 'Ən çox işlənən qeyri-düzgün fellərin tərcüməli siyahısı.', file: 'materials/ingilis-dili/irregular-verbs-azerbaycanca.pdf', size: 'PDF · 3 səhifə' },
+  { title: 'İngilis dilində zamanlar', subject: 'İngilis dili', grade: 'Ümumi', description: 'Zaman qaydaları, nümunələr və test strategiyası.', file: 'materials/ingilis-dili/ingilis-dili-zamanlar.pdf', size: 'PDF · 4 səhifə' }
 ];
 
 const grid = document.querySelector('#materials-grid');
@@ -55,7 +59,7 @@ function renderMaterials() {
   const subject = subjectFilter?.value || 'all';
   const filtered = materials.filter((item) => {
     const matchesQuery = `${item.title} ${item.subject} ${item.grade} ${item.description || ''}`.toLocaleLowerCase('az').includes(query);
-    return matchesQuery && (grade === 'all' || item.grade === grade) && (subject === 'all' || item.subject === subject);
+    return matchesQuery && (grade === 'all' || item.grade === grade || item.grade === 'Ümumi') && (subject === 'all' || item.subject === subject);
   });
 
   count.textContent = String(materials.length);
@@ -83,7 +87,6 @@ function renderMaterials() {
     download.target = '_blank';
     download.rel = 'noopener';
     download.textContent = 'PDF-ə bax və yüklə ↗';
-    top.appendChild(tag);
     card.append(top, title, description, meta, download);
     grid.append(card);
   });
@@ -113,4 +116,7 @@ subjectFilter?.addEventListener('change', renderMaterials);
 resetButton?.addEventListener('click', resetFilters);
 renderSubjects();
 renderMaterials();
+
+
+
 
