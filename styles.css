@@ -90,3 +90,5 @@ h2 { margin-bottom: 9px; font-size: clamp(1.9rem, 3.4vw, 2.65rem); line-height: 
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: .01ms !important; } }
 
+.empty-state[hidden] { display: none; }
+
