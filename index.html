@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
 </head>
 <body>
   <header class="site-header">
@@ -19,6 +19,7 @@
       <div class="nav-links" id="nav-links">
         <a href="#top">Ana səhifə</a>
         <a href="#materiallar">Materiallar</a>
+        <a href="#luget">Lüğət</a>
         <a href="#haqqinda">Haqqında</a>
         <a class="nav-cta" href="#materiallar">Dərsə başla <span aria-hidden="true">↗</span></a>
       </div>
@@ -49,6 +50,36 @@
         </div>
       </div>
       <div class="container hero-bottom"><span>Materiallar əlavə olunduqca bu səhifədə görünəcək</span><a href="#materiallar">Kataloqa keç <span aria-hidden="true">→</span></a></div>
+    </section>
+
+        <section class="dictionary-section section" id="luget">
+      <div class="container dictionary-layout">
+        <div class="dictionary-copy">
+          <p class="eyebrow">AZƏRBAYCAN DİLİ LÜĞƏTİ</p>
+          <h2>Bir sözü axtar, mənasını öyrən</h2>
+          <p class="section-lead">Sözün izahını, yazılışını və işlənmə nümunələrini lüğətdə tap.</p>
+          <form class="dictionary-search" action="https://azleks.az/dictionary" method="get" target="_blank" rel="noopener noreferrer">
+            <label class="visually-hidden" for="dictionary-word">Lüğətdə axtarış</label>
+            <input id="dictionary-word" name="search" type="search" placeholder="Axtardığınız sözü yazın..." autocomplete="off" required />
+            <button type="submit">Lüğətdə axtar <span aria-hidden="true">↗</span></button>
+          </form>
+          <p class="dictionary-note">Axtarış nəticəsi Azleks lüğətində açılacaq.</p>
+        </div>
+        <aside class="dictionary-panel" aria-label="Lüğət axtarışı üçün nümunələr">
+          <div class="dictionary-panel-top">
+            <span class="dictionary-icon" aria-hidden="true">Ə</span>
+            <div><strong>İzahlı lüğət</strong><span>Azərbaycan dilinin sözləri</span></div>
+          </div>
+          <p class="dictionary-example-title">Sürətli axtarış</p>
+          <div class="dictionary-examples">
+            <a href="https://azleks.az/dictionary?search=kitab" target="_blank" rel="noopener noreferrer">kitab</a>
+            <a href="https://azleks.az/dictionary?search=axtar%C4%B1%C5%9F" target="_blank" rel="noopener noreferrer">axtarış</a>
+            <a href="https://azleks.az/dictionary?search=%C9%99yani" target="_blank" rel="noopener noreferrer">əyani</a>
+            <a href="https://azleks.az/dictionary?search=afaziya" target="_blank" rel="noopener noreferrer">afaziya</a>
+          </div>
+          <a class="dictionary-all" href="https://azleks.az/dictionary" target="_blank" rel="noopener noreferrer">Bütün lüğətə keç <span aria-hidden="true">↗</span></a>
+        </aside>
+      </div>
     </section>
 
     <section class="catalog section" id="materiallar">
