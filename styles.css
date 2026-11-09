@@ -92,3 +92,26 @@ h2 { margin-bottom: 9px; font-size: clamp(1.9rem, 3.4vw, 2.65rem); line-height: 
 
 .empty-state[hidden] { display: none; }
 
+
+
+.subject-browser { margin: 22px 0 24px; padding: 18px; border: 1px solid var(--line); border-radius: 16px; background: #fbfcff; }
+.subject-browser-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 14px; }
+.subject-browser-heading .eyebrow { margin: 0 0 6px; }
+.subject-browser-heading h3 { margin: 0; font: 800 1rem Manrope,sans-serif; }
+.subject-browser-heading > span { color: var(--muted); font-size: .78rem; }
+.subject-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(145px,1fr)); gap: 10px; }
+.subject-card { min-height: 86px; display: grid; grid-template-columns: 38px 1fr; grid-template-rows: auto auto; align-items: center; gap: 3px 11px; padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: white; color: var(--ink); text-align: left; cursor: pointer; transition: transform .2s,border-color .2s,box-shadow .2s,background .2s; }
+.subject-card:hover { transform: translateY(-2px); border-color: #d6d4ff; box-shadow: 0 10px 22px rgba(35,46,91,.07); }
+.subject-card[aria-pressed="true"] { border-color: #817bf0; background: #f5f4ff; box-shadow: 0 0 0 2px rgba(101,96,232,.08); }
+.subject-card:focus-visible { outline: 3px solid rgba(101,96,232,.28); outline-offset: 2px; }
+.subject-symbol { grid-row: 1 / 3; width: 38px; height: 38px; display: grid; place-items: center; border-radius: 10px; color: #5b57c9; background: #f0efff; font-size: .8rem; font-weight: 800; }
+.subject-name { font-size: .8rem; font-weight: 800; }
+.subject-count { color: var(--muted); font-size: .7rem; }
+@media (max-width: 650px) {
+  .subject-browser { padding: 14px; }
+  .subject-browser-heading { align-items: flex-start; flex-direction: column; gap: 6px; }
+  .subject-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+  .subject-card { min-height: 76px; grid-template-columns: 32px 1fr; gap: 3px 8px; padding: 9px; }
+  .subject-symbol { width: 32px; height: 32px; font-size: .72rem; }
+  .subject-name { font-size: .72rem; }
+}
