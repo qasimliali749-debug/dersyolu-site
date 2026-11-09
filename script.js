@@ -48,7 +48,8 @@ const materials = [
   {"title":"İngilis dili test bankı — 11-ci sinif cavabları","subject":"İngilis dili","grade":"11-ci sinif","description":"11-ci sinif test bankının cavabları və izahları.","file":"https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch2/Samir.B.11-ci.sinif.cavablar.pdf","size":"PDF · 26 səhifə"},
   {"title":"Sayılmayan isimlər və istisnalar","subject":"İngilis dili","grade":"Ümumi","description":"İngilis dilində sayılmayan isimlər və istisna hallar.","file":"https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch2/Sayilmayan_isimler_ve_istisnalar.1.pdf","size":"PDF · 5 səhifə"},
   {"title":"Taste — söz siyahısı","subject":"İngilis dili","grade":"Ümumi","description":"İngilis dili üzrə söz siyahısı.","file":"https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch2/Taste_Sozler.pdf","size":"PDF · 2 səhifə"},
-  {"title":"Vocabulary List","subject":"İngilis dili","grade":"Ümumi","description":"İngilis dili üçün qısa söz siyahısı.","file":"https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch2/Vocabulary_List.pdf","size":"PDF · 1 səhifə"}
+  {"title":"Vocabulary List","subject":"İngilis dili","grade":"Ümumi","description":"İngilis dili üçün qısa söz siyahısı.","file":"https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch2/Vocabulary_List.pdf","size":"PDF · 1 səhifə"},
+  {"title":"Mini kalkulyator","subject":"Riyaziyyat","grade":"Ümumi","description":"Toplama, çıxma, vurma, bölmə, qüvvət və kök əməliyyatlarını hesabla.","file":"kalkulyator_1.html","size":"İnteraktiv alət","type":"tool"}
 ];
 
 const grid = document.querySelector('#materials-grid');
@@ -131,7 +132,10 @@ function renderMaterials() {
     card.className = 'material-card';
     const top = document.createElement('div');
     top.className = 'material-top';
-    top.innerHTML = '<span class="pdf-icon">PDF</span>';
+    const format = document.createElement('span');
+    format.className = 'pdf-icon';
+    format.textContent = item.type === 'tool' ? 'ALƏT' : 'PDF';
+    top.append(format);
     const tag = document.createElement('span');
     tag.className = 'material-tag';
     tag.textContent = item.subject;
@@ -148,7 +152,7 @@ function renderMaterials() {
     download.href = item.file;
     download.target = '_blank';
     download.rel = 'noopener';
-    download.textContent = 'PDF-ə bax və yüklə ↗';
+    download.textContent = item.type === 'tool' ? 'Aləti aç ↗' : 'PDF-ə bax və yüklə ↗';
     card.append(top, title, description, meta, download);
     grid.append(card);
   });
