@@ -52,6 +52,89 @@ const materials = [
   {"title":"Mini kalkulyator","subject":"Riyaziyyat","grade":"Ümumi","description":"Toplama, çıxma, vurma, bölmə, qüvvət və kök əməliyyatlarını hesabla.","file":"kalkulyator_1.html","size":"İnteraktiv alət","type":"tool"}
 ];
 
+materials.push(...[
+  {
+    "title": "DİM INFO toplu 2025",
+    "subject": "İnformatika",
+    "grade": "Ümumi",
+    "description": "DİM 2025 üzrə informatika test toplusu.",
+    "file": "https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch3/DIM.INFO.toplu.2025.1.pdf",
+    "size": "PDF · DİM 2025"
+  },
+  {
+    "title": "Fizika — DİM toplu 2025",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "DİM 2025 fizika test toplusu.",
+    "file": "https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch3/Fizika.Dim.Toplu.2025.pdf",
+    "size": "PDF · DİM 2025"
+  },
+  {
+    "title": "Tarix — DİM 2025 toplu, I hissə",
+    "subject": "Tarix",
+    "grade": "Ümumi",
+    "description": "Tarix fənni üzrə DİM 2025 test toplusunun birinci hissəsi.",
+    "file": "https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch3/2025_tarix_toplu_I_hiss.pdf",
+    "size": "PDF · DİM 2025"
+  },
+  {
+    "title": "Kimya — 2025 test toplusu",
+    "subject": "Kimya",
+    "grade": "Ümumi",
+    "description": "Kimya fənni üzrə 2025 test materialı.",
+    "file": "https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch3/Kimya2025.Xanimnaz.M.pdf",
+    "size": "PDF · DİM 2025"
+  },
+  {
+    "title": "Biologiya — DİM 2025 test toplusu, I hissə",
+    "subject": "Biologiya",
+    "grade": "Ümumi",
+    "description": "Biologiya fənni üzrə DİM 2025 test toplusunun birinci hissəsi.",
+    "file": "https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch3/DIM_2025_Biologiya_Test_Toplusu_1_ci_hiss._TG_DerseDestek_BOT.pdf",
+    "size": "PDF · DİM 2025"
+  },
+  {
+    "title": "İngilis dili — DİM 2025, 11-ci sinif, I hissə",
+    "subject": "İngilis dili",
+    "grade": "11-ci sinif",
+    "description": "11-ci sinif üçün DİM 2025 ingilis dili test toplusunun birinci hissəsi.",
+    "file": "https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch3/DIM.INGILIS.DILI.1.CI.HISS.2025.11.3.pdf",
+    "size": "PDF · DİM 2025"
+  },
+  {
+    "title": "Riyaziyyat — DİM 2025 toplu, I hissə",
+    "subject": "Riyaziyyat",
+    "grade": "Ümumi",
+    "description": "Riyaziyyat fənni üzrə DİM 2025 test toplusunun birinci hissəsi.",
+    "file": "https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch3/l.hiss.riyaziyyat.pdf.2025.1.1.pdf",
+    "size": "PDF · DİM 2025"
+  },
+  {
+    "title": "Coğrafiya — DİM 2025 toplu",
+    "subject": "Coğrafiya",
+    "grade": "Ümumi",
+    "description": "Coğrafiya fənni üzrə DİM 2025 test toplusu.",
+    "file": "https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch3/Cografiya_Toplu_2025_%40akootg.pdf",
+    "size": "PDF · DİM 2025"
+  },
+  {
+    "title": "Ədəbiyyat — DİM 2025 toplu",
+    "subject": "Ədəbiyyat",
+    "grade": "Ümumi",
+    "description": "Ədəbiyyat fənni üzrə DİM 2025 test toplusu.",
+    "file": "https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch3/d.biyyat.Dim.toplu.2025.pdf",
+    "size": "PDF · DİM 2025"
+  },
+  {
+    "title": "Azərbaycan dili — DİM 2025 test toplusu, II hissə",
+    "subject": "Azərbaycan dili",
+    "grade": "Ümumi",
+    "description": "Azərbaycan dili fənni üzrə DİM 2025 test toplusunun ikinci hissəsi.",
+    "file": "https://github.com/qasimliali749-debug/dersyolu-site/releases/download/dersyolu-materials-2026-11-batch3/DIM.2025.Az.rbaycan.Dili.2.ci.hiss.test.toplusu.3.pdf",
+    "size": "PDF · DİM 2025"
+  }
+]);
+
 const grid = document.querySelector('#materials-grid');
 const emptyState = document.querySelector('#empty-state');
 const searchInput = document.querySelector('#search-input');
@@ -79,7 +162,7 @@ function renderSubjects() {
   if (subjects.includes(selected)) subjectFilter.value = selected;
 
   if (!subjectGrid) return;
-  const symbols = { 'Azərbaycan dili': 'Ə', 'İngilis dili': 'EN', 'Riyaziyyat': '∑', 'Tarix': 'T', 'Kimya': 'K' };
+  const symbols = { 'Azərbaycan dili': 'Ə', 'İngilis dili': 'EN', 'Riyaziyyat': '∑', 'Tarix': 'T', 'Kimya': 'K', 'İnformatika': 'IT', 'Fizika': 'F', 'Biologiya': 'BIO', 'Coğrafiya': 'C', 'Ədəbiyyat': 'ƏD' };
   const cards = [
     { value: 'all', title: 'Bütün fənlər', symbol: '✦', total: materials.length },
     ...subjects.map((subject) => ({
