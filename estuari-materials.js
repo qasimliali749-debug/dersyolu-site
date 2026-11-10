@@ -358,5 +358,365 @@ window.estuariMaterials = [
     "description": "Estuari açıq arxivindən PDF materialı.",
     "file": "https://drive.google.com/file/d/1mHFPLRSS4C-W22dkOkgA4ds7sgKg_vW_/view?usp=drive_link",
     "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Riyaziyyat test toplusu — I və II qruplar",
+    "subject": "Riyaziyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1mlcd0ZX-AX_FlQ-UOp5y6Jxxy_I3xI4W/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Ədəbiyyat — test toplusu",
+    "subject": "Ədəbiyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1lo2kpNhGaJpWmiuDyjbQcppFH7S0-Dnq/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "İngilis dili — qayda kitabı",
+    "subject": "İngilis dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1mFwUHFEiHmFPGNszUwBZdo0DVqgKaVZv/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Ümumi tarix — test toplusu",
+    "subject": "Tarix",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1XMSG0VUU_2IijIkLUWEHpbJ69EeAjAnA/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Azərbaycan tarixi — test toplusu",
+    "subject": "Tarix",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1IXirFLB6fC3QHY3TyReOw-Y5QhMcudKF/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Güvən — Azərbaycan dili qayda kitabı (2021)",
+    "subject": "Azərbaycan dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1mzo-g2gCa9TLXmoJ1uKm0M8TFLxzAJqV/view?usp=sharing",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Azərbaycan dili, 11-ci sinif",
+    "subject": "Azərbaycan dili",
+    "grade": "11-ci sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/20variant11az",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Riyaziyyat, 11-ci sinif",
+    "subject": "Riyaziyyat",
+    "grade": "11-ci sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/20variant11riy",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — İngilis dili, 11-ci sinif",
+    "subject": "İngilis dili",
+    "grade": "11-ci sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/20variant11ing",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Kimya, I qrup",
+    "subject": "Kimya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/20variant1kimya",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Azərbaycan dili, 9-cu sinif",
+    "subject": "Azərbaycan dili",
+    "grade": "9-cu sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/20variant9az",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Riyaziyyat, 9-cu sinif",
+    "subject": "Riyaziyyat",
+    "grade": "9-cu sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/20variant9riy",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — İngilis dili, 9-cu sinif",
+    "subject": "İngilis dili",
+    "grade": "9-cu sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/20variant9ing",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Kimya, IV qrup",
+    "subject": "Kimya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/20variant4kimya",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Rus dili, 11-ci sinif",
+    "subject": "Rus dili",
+    "grade": "11-ci sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/20variant11rus",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Rus dili, 9-cu sinif",
+    "subject": "Rus dili",
+    "grade": "9-cu sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1j6b1BJl1TylkXVJFyJTPMpK62uEyfNKt/view?usp=sharing",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Azərbaycan dili, III qrup",
+    "subject": "Azərbaycan dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1j0-RSaxwbY133umYRkzLeiG5piJXKJTI/view?usp=sharing",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Riyaziyyat, I qrup",
+    "subject": "Riyaziyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1j4R7qWMsCRSDeIYWvqWTGANVJzuHYRpl/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Biologiya, IV qrup",
+    "subject": "Biologiya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1zEsCkglQ3SeDI6JJDnDkUhJOsArjA8TH/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant — Ədəbiyyat, III qrup",
+    "subject": "Ədəbiyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1M8PF71CGiZ9YcXtTRvOWOb7LEEVH7jv1/view?usp=sharing",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Landau — Kimya",
+    "subject": "Kimya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/13Yyg0KGfPOLynztYSVVb1D32ZPuoLHSy/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Landau — İngilis dili",
+    "subject": "İngilis dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1mzFctE_oJ_f785FXprJBdL7XHxSLQ4MQ/view?usp=sharing",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Landau — Ədəbiyyat",
+    "subject": "Ədəbiyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1re9n2BWUWymvorRLJeLronmBSSbpoZvZ/view?usp=sharing",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Landau — Fizika",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1MeK53mW1Ac_qbhlXOvWiRdV5-q7O6KgG/view?usp=sharing",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Eyler Academy — Riyaziyyat 60 sınaq, 11-ci sinif",
+    "subject": "Riyaziyyat",
+    "grade": "11-ci sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1PdqsKy8bKFPolyWbvlU7mtWWc3FhYTVQ/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Eyler Academy — Riyaziyyat 85 sınaq, buraxılış",
+    "subject": "Riyaziyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1uVhd6b9LCQ9hEV9maN7h-6jGN9zEp5-L/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DR.MATH — Riyaziyyat, I hissə",
+    "subject": "Riyaziyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1T2winqDP4hIMFxydxJJBUrG0JRPpi4Ur/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DR.MATH — Riyaziyyat, II hissə",
+    "subject": "Riyaziyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1Nz3KHLSq8y-ht_1Kl5a2O9CjhBp9rzxT/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2025 — Riyaziyyat, II hissə",
+    "subject": "Riyaziyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://download1530.mediafire.com/pz4y6y0csbmgy67l6SdC0iQljPyEfwQkLFrSAJzqbHACfNgcHQy04883ewwJTFoSIq5ntNqxG-NwJpy75Q3GexOnYV6Nbg2Oa1FJg72c2cbeGGw7jut5khRi8rkgW-_vH1D-LH2ycOprvKV7gapYv-WytQIqKYkZEukQggmlxiirVA/qkgqrmrp78wxnjv/2025+ll+hiss%C9%99+riyaziyyat.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2025 — İngilis dili, II hissə",
+    "subject": "İngilis dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://download948.mediafire.com/1m7yo13u8xpgeG4-NwBwRzFmFClr_hC6pwof93-9KP4_xUTBFD5cG7pBEEM5TwJNJEcVrUMV7j-OuPxopZGxQ_TzxsMevyzkNMFtm5taG2R_zmiH-9w85sOZHKcTLduxJZVk8hrQ188vqq_r-waIl73zC5Q9DpeMg_PmBe99j1l1xw/b9azv2j4gs86x9m/D%C4%B0M+2025+%C4%B0ngilis+Dili+2+ci+hiss%C9%99+test+toplusu+2.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2025 — Coğrafiya, II hissə",
+    "subject": "Coğrafiya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.mediafire.com/file/2e4zhq70b0a3ja6/D%C4%B0M+2025+Co%C4%9Frafiya+2+ci+hiss%C9%99+test+toplusu+@Estuari1.pdf/file",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2025 — Biologiya, II hissə",
+    "subject": "Biologiya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://download1335.mediafire.com/tsx04t4nnacg0oY-rL3fzpaQfW57zrJDgX8kZSc89ZZDzkLNndCDGTu9M6H0F7OC-IarioaJR4DtAO2c5UnnEQ0Hzq7O9QvB8Mns8uZsi4ds8-7nE_OiNfJxEdYbHb3qqpGJNKkoJ0_prsChOUtpTULMRll1sv7aituojbw_pDribg/ejmjx1xof55zvwy/D%C4%B0M+2025+Biologiya+2+ci+hiss%C9%99+test+toplusu.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2025 — Tarix, II hissə",
+    "subject": "Tarix",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://download1347.mediafire.com/afqz009vu6ogqRylXnNJ1UrfOEoVeK5AkvvpnPzLtm2_bvSiGa7IkLNc-28IGMgW8KRGpQhanCGiVFLLEdTSawlPx5hSEy3FfN24rmUglyvpuFk3VoHAC4bXYGLbxjmQ4JW4V_B_5_B75Pru3au57d4xjsJwcxqEvn9zJAyImUtaks7J/62g8luhjm9he0y3/D%C4%B0M+2025+Tarix+2-ci+hiss%C9%99+test+toplusu+%40Estuari1.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2025 — Fizika, II hissə",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://download848.mediafire.com/o5m45funj3tgZiGyp1ZUrq7nhXLuNZyHMSPLh-zFkacwRGV0jYKefy9tLSXrlwiRf5OM8a4hioKH_OTDlw_LlyGcATQK6-bBwpOIaSUSLwgl3--6Q1Retl4Lp79EnW5_9UfR9tW83LOl17FWG-VgiBUIpui9nScb_rZ45HtrPen1zw/2n5cr1h2dcr7dc3/Fizika+D%C4%B0M+2025+2+ci+hiss%C9%99+test+toplusu.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2025 — Kimya, II hissə",
+    "subject": "Kimya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://download1507.mediafire.com/o7ayfqdnhi0gevTOOmw1qG8M9D75jreMaSD1AnSIKNtJwWmXHdARbFd2WJPGWVNONTUepdCMd9BobdDTGSo7EKH_OwuBpAmauHRhfig_OYhGHMyt3_EXE7KshkUWumkiTE7dIqQKMGLfSjW6dhXTwE8J8M2ZBmJh8NzDtVOmqIo1Dw/ct9aq0qk307edwf/Kimya+D%C4%B0M+2025+Test+Toplusu+2-ci+hiss%C9%99+Estuari.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "İngilis dili — DİM 2025, 9-cu sinif",
+    "subject": "İngilis dili",
+    "grade": "9-cu sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://download1078.mediafire.com/8nncaonclwegCREAl36kL1SE4diM1ow5wyOAOTolr_kGvsKq4Lr2HSRrnhcmOR2Prqwmx-5ko9PzYOVGV9nWs2tBht3HvK3bg6KGxz7-agLMqVCafwYvhfRSpq9Jju29pYGZt0e-DDpWK18E5x8S8ZJGhWR238qgolLATavHRUGahss/9foeqo896anmpnl/%C4%B0NG%C4%B0L%C4%B0S+D%C4%B0L%C4%B0+9+S%C4%B0N%C4%B0F+D%C4%B0M+2025%28b%C3%BCt%C3%B6v+versiya%29.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Azərbaycan dili — DİM 2025, II hissə, I versiya",
+    "subject": "Azərbaycan dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://download1654.mediafire.com/budvw99uovhgaDmo4i3BX1kVgj6MQN1FV7PIq8AB8J_dZwhLd5JRzKqxPcxmf_18d5Ksva_QctoWVW5Qm_D-zMSxKdwU2pWveFcQrKYd6FpqqOKeN2QOmpoN1lTq_0YH7M1o9UoT4a4GBXRBOJeI6KXI5nZHHwGJpoISIi2_TYDIFg/a319rxv9bku0f27/D%C4%B0M+2025+Az%C9%99rbaycan+Dili+2+ci+hiss%C9%99+test+toplusu.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK cavabları — Azərbaycan dili, 9-cu sinif",
+    "subject": "Azərbaycan dili",
+    "grade": "9-cu sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1kHJDbVoZtMPRLqAgGvKcsQ_ga6GiGbg/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK cavabları — Riyaziyyat, 9-cu sinif",
+    "subject": "Riyaziyyat",
+    "grade": "9-cu sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1H4r-M87U-ncGXQCH3CIdqqPV9_OIYuA5/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK cavabları — İngilis dili, 9-cu sinif",
+    "subject": "İngilis dili",
+    "grade": "9-cu sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/103uL00LY_QlNQ3tx4bbllqHyVytb2bWU/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant cavabları — Azərbaycan dili, III qrup",
+    "subject": "Azərbaycan dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1HDDNZZNeIhYP-WTlmKeizIepR2Pisp3a/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant cavabları — Riyaziyyat, I qrup",
+    "subject": "Riyaziyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1rdGzi39icnP4Y4IHz3xVFKVyaQHLF023/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant cavabları — Kimya, I qrup",
+    "subject": "Kimya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1GWv_VOlSDjmgWj9SnR6N8B32pDlM0aBC/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK 20 variant cavabları — Kimya, IV qrup",
+    "subject": "Kimya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/12xckt7IedKyYluhVoAeSoPVebT00M1_n/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 05.06.2022",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/34?filePath=examPdf%2FQ%C9%99bul05062022_830_17_56_14_5_6_2022_.pdf",
+    "size": "PDF · Estuari arxivi"
   }
 ];
