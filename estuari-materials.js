@@ -660,7 +660,7 @@ window.estuariMaterials = [
     "subject": "Azərbaycan dili",
     "grade": "9-cu sinif",
     "description": "Estuari açıq arxivindən PDF materialı.",
-    "file": "https://drive.google.com/file/d/1kHJDbVoZtMPRLqAgGvKcsQ_ga6GiGbg/view?usp=drive_link",
+    "file": "https://drive.google.com/file/d/1kHJDbVoZtMPRLqAgGvKcsQ_sa6GiGbg/view?usp=drive_link",
     "size": "PDF · Estuari arxivi"
   },
   {
@@ -717,6 +717,302 @@ window.estuariMaterials = [
     "grade": "Ümumi",
     "description": "Estuari açıq arxivindən PDF materialı.",
     "file": "https://www.fizikadim.az/Exam/DownloadFile/34?filePath=examPdf%2FQ%C9%99bul05062022_830_17_56_14_5_6_2022_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 04.06.2022",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/33?filePath=examPdf%2FQ%C9%99bul04062022_218_12_52_14_5_6_2022_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 28.07.2021",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/12?filePath=examPdf%2FQ%C9%99bul28072021_637_53_20_6_10_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 27.07.2021",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/11?filePath=examPdf%2FQ%C9%99bul27072021_326_0_19_6_10_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 20.08.2020",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/10?filePath=examPdf%2FQ%C9%99bul20082020_706_33_42_5_5_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 12.05.2019",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/20?filePath=examPdf%2FQ%C9%99bul12052019_606_42_29_7_21_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 20.05.2018",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/8?filePath=examPdf%2FQ%C9%99bul20052018_17_8_38_4_5_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 07.05.2017",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/16?filePath=examPdf%2FQ%C9%99bul07052017_253_38_50_7_19_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 22.07.2017",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/6?filePath=examPdf%2FQ%C9%99bul22072017_492_14_28_4_5_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 15.07.2016",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/7?filePath=examPdf%2FQ%C9%99bul15072016_708_42_32_4_5_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 22.05.2016",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/5?filePath=examPdf%2FQ%C9%99bul22052016_77_1_16_4_5_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 14.07.2015",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/22?filePath=examPdf%2FQ%C9%99bul14072015_586_38_12_9_3_1_2022_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 18.05.2014",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/32?filePath=examPdf%2FQ%C9%99bul18052014_789_24_8_11_18_5_2022_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika qəbulu — 2013, I qrup",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/15?filePath=examPdf%2FQ%C9%99bul20131qrupvariantB_17_53_46_7_19_12_2021_.PDF",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika sınağı — DİM, 19.12.2021",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/17?filePath=examPdf%2FDim19122021S%C4%B1naq_54_28_7_7_21_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika sınağı — DİM, 29.04.2018",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/18?filePath=examPdf%2FDim29042018S%C4%B1naq_315_28_10_7_21_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "Fizika sınağı — DİM, 15.04.2018",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://www.fizikadim.az/Exam/DownloadFile/19?filePath=examPdf%2FDim15042018S%C4%B1naq_158_4_12_7_21_12_2021_.pdf",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Azərbaycan dili, I hissə",
+    "subject": "Azərbaycan dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1O2v_z7NVXAKu1yjWw1VUYaXNsF6gtJ4d/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Riyaziyyat, I hissə",
+    "subject": "Riyaziyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1tC53KmGUmlaYr_XkT_MQp5t7P1kuLrqO/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — İngilis dili, I hissə",
+    "subject": "İngilis dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1tTvYHmrK0bH6MjSgWlAADy9nJ4KPgB6l/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Biologiya, I hissə",
+    "subject": "Biologiya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1C3wPqJCxikuFv_aBC7_qSFa9BhI2IBeX/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Kimya, I hissə",
+    "subject": "Kimya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1eZQ477agPlpxdc9_KuFeKY-L2oUqNG_n/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Coğrafiya, I hissə",
+    "subject": "Coğrafiya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1Ih__jKVFPQH2SycFxte97YLTavxbwUl3/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Tarix, I hissə",
+    "subject": "Tarix",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1eXIc41R90buiYWMAtOYXnboEpe16uEbK/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Ədəbiyyat",
+    "subject": "Ədəbiyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1ZfDZIien4r6TuCgmcjkEpify9laxtToc/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Fizika, I hissə",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1xgX-ygJAjIfqbRZXPWbcexQ-MU9r2thT/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — İnformatika",
+    "subject": "İnformatika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/informatikatestto",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Azərbaycan dili, II hissə",
+    "subject": "Azərbaycan dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1HY83njmIAEwC_32Qcli7fTmD4mzXL35H/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Riyaziyyat, II hissə",
+    "subject": "Riyaziyyat",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/riyaziyyatdimtest",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — İngilis dili, II hissə",
+    "subject": "İngilis dili",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/ingilisdili2his",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Coğrafiya, II hissə",
+    "subject": "Coğrafiya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/4gzIzSc",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Biologiya, II hissə",
+    "subject": "Biologiya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1_fQ3uId2mwsjzb9smmoRUaMaanrcLOow/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Tarix, II hissə",
+    "subject": "Tarix",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/tarixdimtest",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Fizika, II hissə",
+    "subject": "Fizika",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/fizika2hisse",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM 2023 — Kimya, II hissə",
+    "subject": "Kimya",
+    "grade": "Ümumi",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://bit.ly/kimyadimtest",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK cavabları — Azərbaycan dili, 11-ci sinif",
+    "subject": "Azərbaycan dili",
+    "grade": "11-ci sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1koSa3Xl-zdun65Lc6NoUFHU3fWvp9B9Y/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK cavabları — Riyaziyyat, 11-ci sinif",
+    "subject": "Riyaziyyat",
+    "grade": "11-ci sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1Q7lrqFhfuD8peJzW0sdNxNUiUQR_k1y9/view?usp=drive_link",
+    "size": "PDF · Estuari arxivi"
+  },
+  {
+    "title": "DİM OTK cavabları — İngilis dili, 11-ci sinif",
+    "subject": "İngilis dili",
+    "grade": "11-ci sinif",
+    "description": "Estuari açıq arxivindən PDF materialı.",
+    "file": "https://drive.google.com/file/d/1zdaPVgbvWlrfPNsb1ldAWq8VpGwFlqPs/view?usp=drive_link",
     "size": "PDF · Estuari arxivi"
   }
 ];
