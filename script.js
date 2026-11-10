@@ -17,7 +17,7 @@ if (menuButton && navLinks) {
   });
 }
 
-const materials = [
+const materials = [...(window.estuariMaterials || []),
   { title: 'Omonim şəkilçilər', subject: 'Azərbaycan dili', grade: 'Ümumi', description: 'Eyni cür yazılıb fərqli vəzifə daşıyan şəkilçilərin nümunələri.', file: 'materials/azerbaycan-dili/omonim-sekilciler.pdf', size: 'PDF · 3 səhifə' },
   { title: 'Qrammatik şəkilçilər — siyahı', subject: 'Azərbaycan dili', grade: 'Ümumi', description: 'İsim və fel şəkilçilərinin qısa, yığcam xülasəsi.', file: 'materials/azerbaycan-dili/qrammatik-sekilciler-siyahisi.pdf', size: 'PDF · 3 səhifə' },
   { title: 'Qrammatik şəkilçilər', subject: 'Azərbaycan dili', grade: 'Ümumi', description: 'Azərbaycan dilində söz dəyişdirici şəkilçilərin geniş icmalı.', file: 'materials/azerbaycan-dili/qrammatik-sekilciler.pdf', size: 'PDF · 7 səhifə' },
